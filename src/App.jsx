@@ -13,23 +13,31 @@ const App = () => {
             <nav>
               <ul>
                 <li>
-                  <a href="">Home</a>
+                  <a className="link-a" href="">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="">Menu</a>
+                  <a className="link-a" href="">
+                    Menu
+                  </a>
                 </li>
                 <li>
-                  <a href="">Services</a>
+                  <a className="link-a" href="">
+                    Services
+                  </a>
                 </li>
                 <li>
-                  <a href="">Offers</a>
+                  <a className="link-a" href="">
+                    Offers
+                  </a>
                 </li>
               </ul>
             </nav>
 
-            <div>
+            <div className="left-box">
               <img src={lupa} alt="" />
-              <button></button>
+              <button className="jonak">Jonatish</button>
             </div>
           </div>
         </div>

@@ -20,7 +20,33 @@
 }
 
 ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 
+.link-a {
+  font-size: 18px;
+  color: black;
+  transition: 300ms all ease;
+}
+
+.link-a:hover {
+  transition: 300ms all ease;
+  font-size: 18px;
+  color: #39DB4A;
+
+}
+
+.jonak {
+  background: #39DB4A;
+  width: 179px;
+  padding: 8px 0;
+  border-radius: 40px;
+  font-size: 20px;
+}
+
+.left-box {
   display: flex;
   align-items: center;
   gap: 20px;
